@@ -76,7 +76,7 @@ def augment_data(data, augmenter, num_samples):
             augmented_texts = augmenter.augment(text, n=num_samples)
             augmented_data.extend(augmented_texts)
         except Exception as e:
-            pass
+            print(e)
     return augmented_data
 
 def process_batch(batch, augmenters_list):
