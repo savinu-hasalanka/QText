@@ -13,7 +13,7 @@ QText is an advanced text data augmentation framework that leverages reinforceme
 ## Installation
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/QText.git
+git clone https://github.com/savinu-hasalanka/QText.git
 cd QText
 
 # Install dependencies
